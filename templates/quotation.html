@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1 class="text-4xl mt-8 mb-4">Quotation</h1>
+    <p>Item Name: {{ item_name }}</p>
+    <p>Quantity: {{ quantity }}</p>
+    <p>Predicted Stock: {{ predicted_stock }}</p>
+    <p>Recommended Reorder Quantity: {{ reorder_quantity }}</p>
+    <!-- Additional content for quotation goes here... -->
+{% endblock %}
