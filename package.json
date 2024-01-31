@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "pouchdb": "^8.0.1"
+    "pouchdb": "^8.0.1",
+    "pouchdb-browser": "^8.0.1"
   }
 }
